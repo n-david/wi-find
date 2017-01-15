@@ -1,0 +1,15 @@
+/* line 5, /home/ubuntu/workspace/app/assets/stylesheets/welcome.scss */
+.button {
+  background-color: white;
+  color: black;
+  border: black;
+  border-radius: 8px;
+}
+
+/* line 12, /home/ubuntu/workspace/app/assets/stylesheets/welcome.scss */
+.search_button {
+  background-color: white;
+  color: black;
+  border: black;
+  border-radius: 5px;
+}

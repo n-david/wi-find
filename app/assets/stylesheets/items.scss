@@ -1,0 +1,69 @@
+// Place all the styles related to the items controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.table th, .table td { 
+     border-top: none !important; 
+ }
+
+.green_dot {
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.button1 {
+    font-size: 15px;
+    background-color: transparent;
+    color: black;
+    border: white;
+    border-radius: 8px;
+}
+
+.button_plus {
+    vertical-align: -2.8;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border: white;
+    border-radius: 8px;
+}
+
+.form {
+    margin-top: 10px;
+    margin-left: 41%;
+}
+
+.add_edit_button {
+    margin-top: -15px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: white;
+    border-radius: 8px;
+}
+
+.button_back {
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: white;
+    border-radius: 8px;
+}
+
+.wifind {
+    margin-right: 9.5px;
+}
+
+.headers {
+    margin-top: 35px;
+    margin-bottom: 18px;
+}
+
+.list_button_search {
+    margin-top: 12px;
+    font-size: 15px;
+    background-color: transparent;
+    color: black;
+    border: white;
+    border-radius: 8px;
+}

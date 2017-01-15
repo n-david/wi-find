@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<style>
+    body {
+    font-family: "Open Sans";
+}
+</style>
+
+<%= stylesheet_link_tag "welcome" %>
+
+<div class="text-center">
+    <h1><%= image_tag("wifind-gif-homepage.gif", :class => "gif") %></h1>
+    <div style="float:left;" class="wifind_welcome">
+        <h4><b>wi—find</b></h4>
+    </div>
+        <div style="float:left;">
+            <%= form_tag items_path, :method => "get" do %>
+        </div>
+            <%= text_field_tag :search, params[:search], placeholder: "Where are you?" %>
+            <%= button_tag(type: "submit", name: nil, class: "search_button") do %>
+                <span class="glyphicon glyphicon-search"></span> 
+            <% end %>
+            <% end %>
+        
+            <%= button_to items_path, :class => "button glyphicon glyphicon-list", form: {style: "display:inline-block;"}, :method => :get do %>
+            <% end %>
+</div>
